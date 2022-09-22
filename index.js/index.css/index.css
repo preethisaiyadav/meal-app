@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #85FFBD;
+  background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+  
+  }
+  .appName{
+    font-size: 50px;
+    background: -webkit-linear-gradient(rgb(228, 6, 202), rgb(209, 218, 179));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0;
+  }
+  .navigator {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 30px;
+  }
+  .nav-aside {
+    display: flex;
+    gap: 20px;
+    flex-grow: 1;
+    justify-content: end;
+    padding: 0px 20px;
+    align-items: baseline;
+  }
+   a {
+    text-decoration: none;
+    color: black;
+  }
+  button {
+    background: none;
+    border: none;
+    background-color: aqua;
+    border-radius: 20px;
+    padding: 10px 20px;
+    width: fit-content;
+  }
+  button:hover {
+    background-color: black;
+    color: white;
+    transform: scale(1.1);
+    cursor: pointer;
+  }
+  
+  .searchMeal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding-top: 130px;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .search{
+        display: flex;
+      gap: 10px;
+  }
+  .search input{
+    border-radius: 10px;
+      width: 400px;
+      flex-grow: 1;
+      
+      
+  
+  }
+  input:hover{
+    border: 3px solid aqua;
+  }
+  #mealData{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 5px;
+        width: 400px;
+      align-self: center;
+      position: inherit;
+      left: -4%;
+    
+  }
+  #mealData img{
+    height: 70px;
+    
+  }
+  .meal{
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;
+      align-items: center;
+  }
+  .meal a{
+    display: flex;
+      gap: 5px;
+      align-items: center;
+  }
+  .meal a *{
+    margin: 0;
+    display: inline;
+    padding: 5px;
+    text-align: center;
+  }
+  .hidden {
+    visibility: hidden;
+    /* display: none; */
+  }

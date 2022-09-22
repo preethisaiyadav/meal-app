@@ -1,0 +1,31 @@
+button {
+    background: none;
+    border: none;
+    background-color: aqua;
+    border-radius: 20px;
+    padding: 10px 20px;
+  }
+  button:hover {
+    background-color: black;
+    color: white;
+    transform: scale(1.1);
+    cursor: pointer;
+  }
+  .meal{
+    display: flex;
+    gap: 10px;
+    overflow: hidden;
+      height: 300px;
+      margin-bottom: 20px;
+  }
+  .meal img {
+    height: 300px;
+    padding: 0px 40px;
+  }
+  .meal div{
+    padding: 0px 40px;
+  }
+  .meal h4 {
+    
+    text-align: justify;
+  }

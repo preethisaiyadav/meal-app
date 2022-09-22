@@ -1,0 +1,38 @@
+dy{
+    background-color: #D9AFD9;
+background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
+
+}
+button {
+  background: none;
+  border: none;
+  background-color: aqua;
+  border-radius: 20px;
+  padding: 10px 20px;
+  
+}
+button:hover {
+  background-color: black;
+  color: white;
+  transform: scale(1.1);
+  cursor: pointer;
+}
+.mealData {
+  display: flex;
+  flex-direction: column;
+}
+.mealData h4{
+        padding: 0px 60px;
+    text-align: justify;
+}
+.top {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.top img {
+  height: 320px;
+}
+.top h1{
+    font-size: 100px;
+}
